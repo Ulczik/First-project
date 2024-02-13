@@ -1,0 +1,22 @@
+.navigation__list {
+  list-style: none;
+  line-height: 1.4;
+  padding: 0;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #a19f8b;
+}
+
+.navigation__link:hover {
+  color: rgb(218, 142, 87);
+}
+
+.navigation__link:active {
+  color: rgb(242, 116, 38);
+}
+
+.navigation__list--hide {
+  display: none;
+}

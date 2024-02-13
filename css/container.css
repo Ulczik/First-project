@@ -1,0 +1,18 @@
+.container {
+  background-color: rgb(30 29 29);
+  color: #a19f8b;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 25px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.4;
+}
+
+.container--otherBackground {
+  background-color: rgb(11 22 18);
+}
+
+.header__title {
+  color: rgb(237, 102, 18);
+  text-align: center;
+}

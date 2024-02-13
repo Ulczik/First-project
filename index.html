@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/stript.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/container.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/button.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">W co wierzyli Słowianie?</h1>
+      </header>
+      <nav class="navigation">
+        <ul class="js-navigationList">
+          <li>
+            <a href="#introduction" class="navigation__link">Wprowadzenie</a>
+          </li>
+          <li><a href="#aboutGods" class="navigation__link">Kto kim był</a></li>
+          <li>
+            <a href="#folkMetalMusic" class="navigation__link"
+              >Muzyka folk metalowa</a
+            >
+          </li>
+        </ul>
+        <p>
+          <button class="button js-buttonList">
+            <span class="js-listThemeName">Ukryj</span> listę
+          </button>
+        </p>
+      </nav>
+      <main class="main">
+        <section id="introduction" class="section">
+          <p>
+            W starożytności ludzie przypisywali zjawiska przyrodnicze sile
+            wyższej. Najbardziej <b>znani</b> bogowie są z mitologii grecjej czy
+            rzymskiej, chociaż też, prawie każdy wie kim był <i>Ozyryz</i>, dla
+            Egipcjan. <strong>Ludność słowiańska</strong> również miała swój
+            paneon, chociaż może nie aż tak sławny, ale równie <em>ważny</em>.
+            Dlaczego w szkołach o tym nie uczą 🧐 ?
+          </p>
+        </section>
+        <section id="aboutGods" class="section">
+          <h2 class="section__header">Kto kim był</h2>
+          <p>
+            <span class="section__paragraph">Perun</span> - zajmuje główne
+            miejsce w panteonie słowiańskich bogów. Pan burz i piorunów.
+            Gromowładny bóg stał na straży praworządności. Perun jest często
+            przedstawiany na koniu, w koronie z dębu, z młotem lub toporem.
+          </p>
+          <p>
+            <span class="section__paragraph">Weles</span> - bóg podziemia,
+            magii, sztuki, rzemiosła, kupców, opiekun bydła, które w dawnych
+            czasach było znakiem bogactwa i dobrobytu. Jest antagonistą Peruna a
+            jego symbolem jest rogaty trójkąt.
+          </p>
+          <p>
+            <img
+              class="section__image"
+              src="https://i.postimg.cc/65db62j8/81e6545a4215bb9299419bf8c1eb.jpg"
+              alt="Swarzyca, swarożyca bądź ośmioramienny kołowrót"
+            />
+          </p>
+          <p>
+            <button class="button button--spectial js-buttonFullScr">
+              Powiększ
+            </button>
+          </p>
+        </section>
+        <section id="folkMetalMusic" class="section">
+          <h2 class="section__header">Muzyka folk metalowa</h2>
+          <p>
+            To odmiana muzyki metalowej, do której wplata się brzmienia folkowe.
+            Muzycy wykorzystują ludowe instrumenty takie jak lira korbowa, czy
+            też tradycyjny śpiew.
+          </p>
+          <div class="section__table">
+            <table class="table">
+              <caption class="table__caption">
+                Przykłady zespołów
+              </caption>
+              <thead>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="col">
+                    Tytuł
+                  </th>
+                  <th class="table__cell table__cell--header" scope="col">
+                    Wykonawca
+                  </th>
+                  <th class="table__cell table__cell--header" scope="col">
+                    Album
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    Yarilo
+                  </th>
+                  <td class="table__cell">Arkona</td>
+                  <td class="table__cell">Goi, Rode, Goi!</td>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    Lyfjaberg
+                  </th>
+                  <td class="table__cell">Wardruna</td>
+                  <td class="table__cell">Lyfjaberg</td>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    Lazare
+                  </th>
+                  <td class="table__cell">Percival</td>
+                  <td class="table__cell">
+                    SLAVA - Pieśni Słowian Południowych, Eiforr
+                  </td>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    Inis Mona
+                  </th>
+                  <td class="table__cell" rowspan="2">Eluveitie</td>
+                  <td class="table__cell" rowspan="2">Slania</td>
+                </tr>
+                <tr class="table__row">
+                  <th class="table__cell table__cell--header" scope="row">
+                    Slania's song
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p>
+          Jeśli masz ochotę poczytaj
+          <a
+            class="footer__link"
+            target="_blank"
+            rel="noreferrer noopener"
+            href="https://www.national-geographic.pl/artykul/wierzenia-slowian-jakie-byly-tradycje-i-wiara-naszych-przodkow"
+            >więcej na ten temat
+          </a>
+        </p>
+        <p>
+          <button class="button button--spectial js-toggleBackgroud">
+            <span class="js-backgroundThemeName">Zielone</span> tło
+          </button>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

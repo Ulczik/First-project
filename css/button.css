@@ -1,0 +1,22 @@
+.button {
+  padding-left: 10px;
+  text-align: center;
+  font-size: small;
+  background-color: rgb(30 29 29);
+  color: #a19f8b;
+  border: 1px solid rgb(243, 213, 108);
+  cursor: pointer;
+}
+
+.button:hover {
+  font-size: medium;
+  font-weight: 700;
+  color: #a19f8b;
+  font-size: small;
+  box-shadow: 2px 2px 5px orange;
+}
+
+.button--spectial {
+  margin: 0 auto;
+  display: block;
+}

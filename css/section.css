@@ -1,0 +1,22 @@
+.section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.section__header {
+  color: #d16522;
+}
+
+.section__paragraph {
+  color: rgb(248, 103, 6);
+}
+
+.section__image {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+}
+
+.section__table {
+  overflow-x: auto;
+}
