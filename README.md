@@ -9,12 +9,11 @@ This repository was created as a  project based on the YouCode - Frontend Develo
 
 ## Description
 
-This is my first project. Here you can find some information regarding Slavic beliefs and folk music.
-
-- USD
-- EUR 
--  GBP
-
+This is my first project. Here you can find some information regarding Slavic beliefs and folk music. 
+Also here are basic interaction
+- change background 
+- hide list
+- request full screen
 
 ## Ues languages / methods
 
