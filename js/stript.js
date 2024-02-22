@@ -15,9 +15,9 @@
       : "Ukryj";
   };
 
-  const image = document.querySelector(".section__image");
-
   const onClickImgFullScreen = () => {
+    const image = document.querySelector(".section__image");
+
     image.requestFullscreen();
   };
 
