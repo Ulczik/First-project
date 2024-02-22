@@ -3,10 +3,9 @@
     console.log("Hejka, jak Ci mija dzień?");
   };
 
-  const navigationList = document.querySelector(".js-navigationList");
-  const listThemeName = document.querySelector(".js-listThemeName");
-
   const onClickHideList = () => {
+    const navigationList = document.querySelector(".js-navigationList");
+    const listThemeName = document.querySelector(".js-listThemeName");
     navigationList.classList.toggle("navigation__list--hide");
 
     listThemeName.innerText = navigationList.classList.contains(
