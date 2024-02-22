@@ -6,6 +6,8 @@ This repository was created as a  project based on the YouCode - Frontend Develo
 # Demo
 [https://ulczik.github.io/First-project/](https://ulczik.github.io/First-project/)
 
+## How to use
+![howToUse](images/Animation.gif)
 
 ## Description
 
