@@ -21,11 +21,12 @@
     image.requestFullscreen();
   };
 
-  const mainBackground = document.querySelector(".container");
-  const backgroundThemeName = document.querySelector(".js-backgroundThemeName");
-
   const onChangeBackgroundClick = () => {
     mainBackground.classList.toggle("container--otherBackground");
+    const mainBackground = document.querySelector(".container");
+    const backgroundThemeName = document.querySelector(
+      ".js-backgroundThemeName"
+    );
 
     backgroundThemeName.innerText = mainBackground.classList.contains(
       "container--otherBackground"
